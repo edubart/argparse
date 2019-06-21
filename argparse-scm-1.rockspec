@@ -1,7 +1,7 @@
 package = "argparse"
 version = "scm-1"
 source = {
-   url = "git+https://github.com/mpeterv/argparse.git"
+   url = "git+https://github.com/luarocks/argparse.git"
 }
 description = {
    summary = "A feature-rich command-line argument parser",
@@ -10,7 +10,7 @@ description = {
    license = "MIT"
 }
 dependencies = {
-   "lua >= 5.1, < 5.4"
+   "lua >= 5.1"
 }
 build = {
    type = "builtin",
